@@ -6,7 +6,7 @@ if [ $? -eq 0 ]; then
     module use /cvmfs/software.eessi.io/init/modules
     module load EESSI/2023.06
 else
-    source /cvmfs/software.eessi.io/versions/2023.06/init/bash
+    source /cvmfs/software.eessi.io/versions/2023.06/init/lmod/bash
 fi
 
 # Load the LINC module
